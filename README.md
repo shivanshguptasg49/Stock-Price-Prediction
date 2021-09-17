@@ -32,7 +32,7 @@ LSTM will take whole window data (60 days data of stock price), and will predict
 
 · Analyzing Dataset
 
-· Scaling dataset
+· Scaling data
 
 · Splitting Dataset
 
@@ -44,10 +44,10 @@ LSTM will take whole window data (60 days data of stock price), and will predict
 
 ## Results
 
-![image](https://user-images.githubusercontent.com/90233908/133723618-4ef02b15-1336-455b-9a04-a62a9c95e4e0.png)
+![image](https://user-images.githubusercontent.com/90233908/133724882-033a4ae6-1566-43a2-adda-319d1f396d89.png)
 
 The blue dashed line represents the predicted price of TCS stock, and the red line represents our actual price. You can observe that our network was accurate enough to predict when our price will increase and when the price will decrease.
 
-![image](https://user-images.githubusercontent.com/90233908/133723661-3fabb278-fc95-4b16-b1b6-ce358ddf3a34.png)
+![image](https://user-images.githubusercontent.com/90233908/133724933-d9b5f983-e46b-4171-8bc9-3ce4c87b862c.png)
  
 The above graph show training data used and testing data. Initial 80% of data is used for training, and the rest 20% of data is used for testing. You can observe that our network can predict price how efficiently.
